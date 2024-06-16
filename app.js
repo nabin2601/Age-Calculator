@@ -37,7 +37,7 @@ const displayResult = () => {
 btn.addEventListener('click', () => displayResult());
 ageInput.addEventListener('keydown', (e) => {
   e.preventDefault();
-  if ('Enter') {
+  if (e.key==='Enter') {
     displayResult();
   }
 });
