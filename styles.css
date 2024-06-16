@@ -147,7 +147,7 @@ section:hover{
     box-shadow: var(--dark-shadow);
 }
 .heading{
-    padding: 5rem 0;
+    padding-top: 3rem;
     text-transform: capitalize;
 }
 form{
@@ -158,6 +158,9 @@ form{
     border-radius: var(--radius);
     padding: 2rem;
     text-align: center;
+}
+.form-container{
+  padding-top:4rem;
 }
 #age-label{
     line-height: 1.5rem;
