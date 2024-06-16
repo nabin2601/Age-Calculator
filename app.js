@@ -12,7 +12,6 @@ btn.addEventListener('click', () => {
     };
 
     const dobDate = new Date(ageInput.value);
-    console.log(dobDate)
     const currentDate = new Date();
 
     let years = currentDate.getFullYear() - dobDate.getFullYear();
